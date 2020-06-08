@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv florent ascensio</title>
+    <link rel="stylesheet" href="./finalstyle.css">
+    <script src="https://kit.fontawesome.com/c9c2dd745c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--au vu du cv proposeé,j'ai decidé de constuire mon cv de la maniere suivante:
+        j'ai decoupé le cv en 2 colonnes  et 3 lignes
+        - un header qui contiendra a gauche la phot de profil et a droite le titre du cv
+        -un contenu principal divisé en 2 sections:
+                -la section de gauche contiendra les infos de contact et la section "a propos"
+                -la section de droite contiendra une section "formation" et une section "experiences"
+        - et un footer qui contiendra a gauche "les hobbies" et a droite "les recommandations"
+    -->
+
+
+    <!--entete principal qui contient la photo de profil a gauche et le titre du cv et mon nom à droite-->
+    <header id="main_header">
+
+        <aside id="profile_picture">
+            <img src="./img/florent-ascensio.jpg" alt="piture profile" width="150">
+        </aside>
+
+        <section id="resume_title">
+            <h1 class="resume_name"><span>florent</span> ascensio</h1>
+            <h2 class="job_title">developpeur web junior</h2>
+            <hr>
+        </section>       
+
+    </header>
+    <!--fin d'entete principal-->
+
+    <!--contenneur principal-->
+    <main id="main_content">
+
+        <!--contenneur colonne de gauche-->
+        <aside id="left_column">
+
+            <!--section infos de contact-->
+            <article class="contact">
+                
+                    <h3>contact</h3>
+                        <p><span>Adresse:</span><br>1024 rue De Vinci, Montpellier</p>
+                        <p><span>Téléphone:</span><br>06-17-57-70-78</p>
+                        <p><span>Site web:</span><br>www.florent-ascensio.com</p>
+                        <p><span>Email:</span><br>florent.ascensio@gmail.com</p>   
+            </article>
+
+            <!--section a propos de moi-->
+            <article class="about_me">
+
+                    <h3>a propos de moi</h3>
+                    <p>Passionné d'informatique depuis mon plus jeune age, et apres un parcours professionnel dans la vente, c'est 
+                        tout naturellement que j'ai décidé de me reconvertir dans le developpement web.<br></p>
+                    <p>J'ai une bonne maitrise des langages HTML, CSS et javascript . J'ai aussi un bon niveau de pratique
+                        concernant les frameworks Bootstrap et Vuejs ainsi que de solides bases en CMS avec Wordpress.<br></p>
+                    <p>Créatif, autonome et sachant travailler en équipe, je n'hésite pas à me remettre en question et à mettre mes
+                        connaissances à jour régulièrement. Je fais même le pari de vous convaincre que mon profil, mes 
+                        compétences et ma personnalité sont ce que vous recherchez pour faire grandir votre entreprise.
+                       
+                    </p>
+            </article>
+        </aside>
+
+        <!--contenneur collone de droite-->
+        <div id="right_column">
+
+            <!--section formations-->
+            <section class="education">
+
+                <!--entete formation avec le logo-->
+                <header class="header_section">
+                    <div class="logo_section">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="title_section">
+                        <h3>formation</h3>
+                    </div>                    
+                </header>
+
+                <!--contenneur de la formation n°1-->
+                <div class="content_section">
+
+                   <!--information de date et de lieu de formation n°1-->
+                    <div class="date">
+                        <div class="dot">
+                            <i class="far fa-dot-circle"></i>
+                        </div>                       
+                        <p>2020 - 2021<br>Montpellier</p>                        
+                    </div>
+                    
+                    <!--contenu de la formation n°1-->
+                    <section class="content">
+                        <h5>openclassrooms</h5>
+                        <h6>developpeur web junior</h6>
+                        <p>Découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML5 et CSS - 
+                            Ajouter du contenu audio et vidéo en HTML5 - 
+                            Animer les pages web avec CSS3 - 
+                            Appliquer les standards du web et les normes en vigueur - 
+                            Construire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette) - 
+                            Améliorer le référencement naturel en utilisant les balises selon leur sémantique - 
+                            Faire réagir la page web en fonction des actions de l’utilisateur en JavaScript - 
+                            Se connecter à un service web pour exploiter des données tierces (API) - 
+                            Gérer les comptes utilisateurs - 
+                            Concevoir un site maintenable grâce à la gestion des erreurs et exceptions - 
+                            Créer, gérer et afficher le contenu d’une base de données.</p>
+                    </section>                   
+                </div>
+
+                <!--contenneur de la formation n°2-->
+                <div class="content_section">
+
+                     <!--information de date et de lieu de formation n°2-->
+                    <div class="date">
+                        <div class="logof">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                       
+                        <p>2015 - 2016<br>Avignon</p>
+                    </div>
+
+                     <!--contenu de la formation n°2-->
+                    <section class="content">
+                        <h5>Formation evolution synergie</h5>
+                        <h6>Praticien PNL</h6>
+                        <p>Améliorer sa communication personnelle et professionnelle - 
+                            Comprendre et utiliser les processus de changements - 
+                            Résoudre les conflits - 
+                            Mettre en place des solutions créatives - 
+                            Négocier, vendre, former, manager , coacher.
+                        </p>
+                    </section>                   
+                </div>
+            </section>
+
+             <!--section experiences-->
+            <section class="experience">
+
+                <!--entete ecperience avec le logo-->
+                <header class="header_section">
+                    <div class="logo_section">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="title_section">
+                        <h3>experiences professionnelles</h3>
+                    </div>
+                </header>
+
+                <!--contenneur de l'experience n°1-->
+                <div class="content_section">
+
+                    <!--information date et lieu experience n°1-->
+                    <div class="date">
+                        <div class="dot">
+                            <i class="far fa-dot-circle"></i>
+                        </div>                       
+                        <p>2015 - 2020<br>Nîmes</p>
+                    </div>
+
+                    <!--contenu de l'experience n°1-->
+                    <section class="content">
+                        <h5>4Murs</h5>
+                        <h6>Vendeur principal</h6>
+                        <p>Conseil client, accompagnement du projet client et fidélisation - 
+                            Traitement SAV et litiges client - 
+                            Theatralisation de l'offre et mise en avant des produits en ensemblier - 
+                            Implantation des nouvelles collections dans les differents styles de vie - 
+                            Préparation des opérations commerciales - 
+                            Gestion du linéaire et des réserves - 
+                            Organisation de l'activité du magasin - 
+                            Management et animation de l'equipe de vente - 
+                            Reception des produits et préparation de la mise en rayon.</p>
+                    </section>                   
+                </div>
+
+                <!--contenneur de l'experience n°2-->
+                <div class="content_section">
+
+                    <!--information date et lieu experience n°2-->
+                    <div class="date">
+                        <div class="logof">
+                            <i class="fas fa-circle"></i>
+                        </div>                       
+                        <p>2010 - 2014<br>Bellegarde</p>
+                    </div>
+
+                     <!--contenu de l'experience n°2-->
+                    <section class="content">
+                        <h5>Les Vignerons Créateurs</h5>
+                        <h6>Responsable du point de vente</h6>
+                        <p> Conseil client - 
+                            Gestion et développement du portefeuille clients - 
+                            Amelioration de l'attractivité du point de vente _ 
+                            Gestion de l'activité commerciale - 
+                            Coordination et animation de l'equipe de vente dans les 4 caveaux de vente du groupe - 
+                            Mise en place et pilotage de la politique merchandising - 
+                            Creation et animation de formation de degustation - 
+                            Creation ILV et PLV pour les caveaux de vente.</p>
+                    </section>                    
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!--pied de page avec les hobbies a gauche et les recommandations a droite-->
+    <footer>       
+        
+        <aside id="hobbies">
+            <h3>hobbies</h3>
+            <!--contenneur des icones-->
+            <div class="logo_footer">
+                <i class="fas fa-drum"></i>
+                <i class="fas fa-volleyball-ball"></i>
+                <i class="fas fa-bicycle"></i>
+            </div>
+        </aside>
+
+        <!--contenneur des recommandations-->
+        <section id="recommandation">
+
+            <!--entete de la section recommandations avec l'icone-->
+            <div class="header_section">
+
+                <div class="logo_section">
+                    <i class="fas fa-pen-fancy"></i>
+                </div>
+                <div class="title_section">
+                    <h3>recommandations</h3>
+                </div>
+            </div>
+
+            <!--contenneur des reconnaissances-->
+            <div class="reco_content">
+
+                <!--contenu de la reconnaissance 1-->
+               <div class="reco">
+                   <p>CELINE DUPUIS</p>
+                   <p>Directeur: 4murs</p>
+                   <p>Telephone: 0 627 564 698</p>
+                   <p>Email: c.dupuis@4murs.fr</p>
+               </div>
+
+               <!--contenu de la reconnaissance 2-->
+               <div class="reco2">
+                <p>FREDERIC SENAC</p>
+                <p>Directeur: Les celliers</p>
+                <p>Telephone: 0 324 845 521</p>
+                <p>Email: f.senac@gmail.com</p>
+               </div>                
+            </div>
+        </section>
+    </footer>
+
+</body>
+</html>
