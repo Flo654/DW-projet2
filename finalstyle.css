@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;}
+
+body {
+    width: 21cm;
+    height: 29,7cm;
+    background-color: white;
+    box-shadow: 0px 0px 10px #000;
+     margin: 10px auto;}
+
+#main_header{
+    display: flex;
+    background-color: white;}
+
+    #profile_picture{
+        background-color: darkcyan;
+        width: 270px;
+        text-align: center;
+        padding: 50px 0;}
+
+        #profile_picture img{
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px #000;}
+
+    #resume_title{        
+        padding-left: 5em;
+        margin: auto 0}
+
+        #resume_title h1 {
+            text-transform: uppercase;
+            font-size: 2.2em;
+            font-weight: lighter;}
+
+        #resume_title h2 {
+            text-transform: capitalize;
+            font-size: 1.5em; 
+            font-weight: lighter;}
+
+        #resume_title hr{
+            width:4em;
+            text-align: left;
+            margin-left: 0;
+            border: 1px solid darkcyan; }
+        
+        .resume_name span{
+            color: darkcyan; }
+
+#main_content{
+    display: flex;}
+
+    #left_column{
+        display: flex;
+        max-width: 900px;
+        flex-direction: column; 
+        background-color: darkcyan;}
+
+        .contact, .about_me {
+            width:270px;
+            padding-bottom: 30px;}
+
+            .contact h3 , .about_me h3 , #hobbies h3{
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 1.1em;
+                background-color:black;
+                color: darkcyan; }
+
+        .contact p, .about_me p{
+            padding: 10px 10px; }
+        
+        .contact span{
+            font-weight: bolder; }
+    
+    #right_column{
+        display: flex;
+        flex-direction: column;       
+        padding: 0 2em;
+        background-color: white;}
+
+        .education{
+            display: flex;
+            flex-direction: column;}
+
+            .header_section{
+                display: flex;
+                border-bottom: 1px solid #000;}
+
+                .logo_section i{
+                    font-size: 25px;
+                    color: darkcyan; }
+                
+                .title_section h3{
+                    text-transform: uppercase;
+                    padding-left: 2em;}  
+            
+
+            .content_section{
+                display: flex; 
+                margin-top: 2em; }
+
+                .date{
+                    display: flex; }
+                    .date p{
+                    width: 6em;
+                    margin-left: 2px;}
+
+                    .date p{
+                        padding-left: 8px;
+                    }
+
+                .logof i {
+                    font-size: 0.5em; }
+
+                .content{
+                    margin-left: 4em;}
+
+                .content h5{
+                    text-transform: uppercase;
+                    font-size: 1em;
+                    font-weight: bolder;
+                    margin-bottom: 1em;}
+
+                .content h6{
+                    text-transform: capitalize;
+                    font-size: 1.05em;
+                    margin-bottom: 0.3em; }
+
+        .experience{
+            margin-top: 60px;
+            padding-bottom: 40px; }
+
+
+footer{
+    display: flex;}
+
+    #hobbies{        
+        width: 270px;
+        background-color: darkcyan;
+        padding-top: 2em;}
+
+        .logo_footer{
+            width: 270px;
+            display: flex;
+            justify-content: space-evenly;            
+            padding-top: 30px;}
+
+            .logo_footer i{
+                font-size: 40px;}
+
+    #recommandation{
+        display: flex;
+        flex:1;
+        flex-direction: column;
+        padding: 0 2em;       
+        background-color:white;}
+        
+        .reco_content{       
+            display:flex;                        
+            padding: 30px 0;
+            margin-right: 30px;
+            justify-content: space-between; }
+
+
+
+
+@media all and (min-width : 320px) and (max-width : 767px) {
+    body{
+        margin: 0;
+        width:auto;
+        height: auto;}
+
+    #resume_title{
+        width: auto;
+        padding: 0;
+        height: 10em;
+        margin-top: 2em;  
+        text-align: center;  }
+
+        #resume_title hr{
+             display:none;}
+
+    #profile_picture{
+        width:100%; }
+
+        #profile_picture img{
+            margin-top: -100px; }
+    
+#main_content{
+    flex-direction: column;}
+    
+    .contact , .about_me{
+        width: 100%;}
+
+    .header_section{
+        padding-top: 15px;}
+    
+#main_header{
+    flex-direction: column-reverse;}
+    
+.content_section{
+    flex-direction: column;}
+    
+    .content{
+        margin:0;
+        padding-top: 10px; }
+    
+    
+footer{
+    flex-direction: column-reverse;}
+    #hobbies{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        padding-bottom: 2em; }  
+
+
+.reco_content {
+    flex-wrap: wrap;}
+
+.reco2 :nth-child(1) {
+    margin-top: 10px;}
+    
+.logo_footer{
+    width: 100%;
+    justify-content: space-evenly;}
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    body{
+    margin:auto;}
+    
+    .content_section{
+        flex-direction: column;}
+    
+    .content{
+        margin:0;
+        padding-top: 10px;}
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1024px){
+
+    body{
+        margin:auto; }
+
+}
