@@ -1,0 +1,84 @@
+@media all and (min-width : 320px) and (max-width : 767px) {
+    body{
+        margin: 0;
+        width:auto;
+        height: auto;}
+
+    #resume_title{
+        width: auto;
+        padding: 0;
+        height: 10em;
+        margin-top: 2em;  
+        text-align: center;  }
+
+        #resume_title hr{
+             display:none;}
+
+    #profile_picture{
+        width:100%; }
+
+        #profile_picture img{
+            margin-top: -100px; }
+    
+#main_content{
+    flex-direction: column;}
+    
+    .contact , .about_me{
+        width: 100%;}
+
+    .header_section{
+        padding-top: 15px;}
+    
+#main_header{
+    flex-direction: column-reverse;}
+    
+.content_section{
+    flex-direction: column;}
+    
+    .content{
+        margin:0;
+        padding-top: 10px; }
+    
+    
+footer{
+    flex-direction: column-reverse;}
+    #hobbies{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        padding-bottom: 2em; }  
+
+
+.reco_content {
+    flex-wrap: wrap;}
+
+.reco2 :nth-child(1) {
+    margin-top: 10px;}
+    
+.logo_footer{
+    width: 100%;
+    justify-content: space-evenly;}
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    body{
+    margin:auto;}
+    
+    .content_section{
+        flex-direction: column;}
+    
+    .content{
+        margin:0;
+        padding-top: 10px;}
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1024px){
+
+    body{
+        margin:auto; }
+
+}
