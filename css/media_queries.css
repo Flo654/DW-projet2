@@ -11,14 +11,22 @@
         margin-top: 2em;  
         text-align: center;  }
 
+        #resume_title h1{
+            font-size: xx-large; }
+
+        #resume-titlte h2{
+            font-size: 2em;
+        }
+
         #resume_title hr{
              display:none;}
 
     #profile_picture{
+        padding: 2.7em;
         width:100%; }
 
         #profile_picture img{
-            margin-top: -100px; }
+            margin-top: -7em; }
     
 #main_content{
     flex-direction: column;}
@@ -79,6 +87,16 @@ footer{
 @media screen and (min-width: 900px) and (max-width: 1024px){
 
     body{
+        margin:auto; }
+
+}
+
+/* css pour les grands ecran*/
+
+@media screen and (min-width: 1200px) {
+
+    body{
+        width:67%;
         margin:auto; }
 
 }
