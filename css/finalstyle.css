@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;}
 
+p{
+    font-style: italic;
+}
 
 body {
     width: 80%;
