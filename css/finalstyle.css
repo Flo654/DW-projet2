@@ -21,8 +21,7 @@ a{
     
 #main_header{
     display: flex;
-    background-color: white;
-    color:black;}
+    background-color: white;}
 
 #profile_picture{
     background-color: darkcyan;
